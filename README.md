@@ -39,7 +39,7 @@ Cada projeto possui um **README próprio** com instruções detalhadas. Mas, de 
 
 1️⃣ Clone este repositório:  
 ```bash
- git clone https://github.com/seu-usuario/arquitetura-e-design-patterns.git
+ git clone https://github.com/gabrielcamurcab/arquitetura-e-design-patterns.git
 ```
 
 2️⃣ Acesse o projeto desejado e siga as instruções específicas no README correspondente.  
