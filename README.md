@@ -4,7 +4,7 @@
 ---
 
 ## 📝 Sobre este Repositório  
-Este repositório contém implementações práticas de diferentes **arquiteturas de software** e **design patterns**, baseadas nos estudos da minha **pós-graduação em Arquitetura de Software**. O objetivo é **reforçar o aprendizado, comparar abordagens e construir um portfólio sólido**.  
+Este repositório contém implementações práticas de diferentes **padrões de arquitetura de software** e **design patterns**, baseadas nos estudos da minha **pós-graduação em Arquitetura de Software**. O objetivo é **reforçar o aprendizado, comparar abordagens e construir um portfólio sólido**.  
 
 Cada diretório contém um exemplo prático, com código-fonte e uma breve explicação sobre o conceito aplicado.  
 
@@ -18,6 +18,7 @@ Cada diretório contém um exemplo prático, com código-fonte e uma breve expli
 | Arquitetura | Descrição | Exemplo |
 |------------|------------|------------|
 | **Centrada em Dados** | Estrutura onde o banco de dados é o núcleo do sistema e os componentes interagem com ele. | [Ver exemplo](./arquitetura-centrada-dados) |
+| **Repositório** | O sistema tem um repositório único de dados compartilhado entre vários módulos. | [Ver exemplo](./arquitetura-repositorio)
 | **MVC (Model-View-Controller)** | Separação da aplicação em Camadas: Modelo, Visão e Controlador. | [Ver exemplo](./arquitetura-mvc) |
 | **Microservices** | Aplicação composta por pequenos serviços independentes que se comunicam. | [Ver exemplo](./arquitetura-microservicos) |
 

@@ -1,0 +1,15 @@
+{
+    "name": "arquitetura-de-repositorio",
+    "version": "1.0.0",
+    "description": "Exemplo de Arquitetura de Repositório em Node.js",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "express": "^4.21.2",
+        "fs": "^0.0.1-security",
+        "path": "^0.12.7"
+    }
+}
