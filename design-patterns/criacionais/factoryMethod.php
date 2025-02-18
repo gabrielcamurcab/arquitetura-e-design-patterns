@@ -87,6 +87,7 @@ class DbLoggerFactory extends LoggerFactory {
 // Simulando o parâmetro em uma arquivo de variável de ambiente, definindo onde devem ser salvos os logs (em arquivo ou apenas exibidos no console).
 // Comente e descomente as declarações de $env e execute novamente o código, para ver o que acontece em cada caso.
 $env = "db";
+// $env = "file"
 // $env = "console"
 // $env = "consolee"
 
