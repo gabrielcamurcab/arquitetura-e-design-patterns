@@ -86,26 +86,23 @@ class DbLoggerFactory extends LoggerFactory {
 
 // Simulando o parâmetro em uma arquivo de variável de ambiente, definindo onde devem ser salvos os logs (em arquivo ou apenas exibidos no console).
 // Comente e descomente as declarações de $env e execute novamente o código, para ver o que acontece em cada caso.
-$env = "db";
-// $env = "file"
-// $env = "console"
-// $env = "consolee"
+// $env = "db";
+// $env = "file";
+$env = "console";
+// $env = "consolee";
 
-if ($env === "file") 
-{
-    $loggerFactory = new FileLoggerFactory();
-} 
-else if ($env === "console") 
-{
-    $loggerFactory = new ConsoleLoggerFactory();
-}
-else if ($env === "db")
-{
-    $loggerFactory = new DbLoggerFactory();
-}
-else 
-{
-    throw new InvalidLoggerTypeException("Arquivo de configuração inválido! A propriedade deve ser 'file' ou 'console'");
+switch ($env) {
+    case "file":
+        $loggerFactory = new FileLoggerFactory();
+        break;
+    case "console":
+        $loggerFactory = new ConsoleLoggerFactory();
+        break;
+    case "db":
+        $loggerFactory = new DbLoggerFactory();
+        break;
+    default:
+        throw new InvalidLoggerTypeException("Arquivo de configuração inválido! A propriedade deve ser 'file' ou 'console'");
 }
 
 $loggerFactory->logMessage("Isso é um log gerado pelo Factory Method!");
